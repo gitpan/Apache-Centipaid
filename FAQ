@@ -1,6 +1,19 @@
+Apache::Centipaid Frequently Asked questions
+--------------------------------------------
 
-Troublshooting
-==============
+Q) Why would I need Apache::Centipaid?
+If you have a site that you want to grant paid access to then you may want to
+choose between the Apache::Centipaid or the PHP module available at centipaid.com
+
+If you have an existing site that already has mod_perl support, then Apache::Centipaid
+will be a great tool since it will be invisible to your web developers and content
+managers.  It does all teh work to direct user to pay, collect payment, and grant access.
+
+Q) Can I see a demo?
+Definetly! Centipaid has many demos showing the various types of businesses where
+centipaid can be used.  The Apache::Centipaid is demonstrated at 
+http://demo.centipaid.com
+
 Q)I installed Apache::Centipaid and everything installed properly without 
 any error messages.  However when I try to access a section that is
 protected I get an apache error.  What is going on?
@@ -48,3 +61,15 @@ check that by running make test in the Apache::Centipaid directory.
 
 5) If the problem persists, then upgrade the DBI::mysql package (a tested DBI::mysql)
    is included in contrib directory.
+
+
+Q) Where do I find more help?
+Centipaid maintains current support issues in the Knowledgebase at 
+http://www.centipaid.com/faq/ and the support forums at
+http://www.centipaid.com/centi/forum/
+
+
+
+Q) I think I found a bug what do I do?
+Please email bug reports to <bugs /at/ centipaid . com>
+

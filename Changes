@@ -18,3 +18,9 @@ Revision history for Perl extension Apache::Centipaid
 	  areas.
 	- Included a supported DBI-mysql in contribs after report of an older DBI::mysql
 	  produced errors.
+
+1.3.1 2003-03-04
+	- added better pre-requisite checks to Makefile.PL to insure that the proper
+	 modules are installed.
+	- added more information in README about centipaid, and module use
+	- added more information to FAQ

@@ -36,7 +36,7 @@ use CGI::Cookie;
 
 use strict;
 
-$Apache::Centipaid::VERSION = '1.3';
+$Apache::Centipaid::VERSION = '1.3.1';
 
 sub need_to_pay($) {
 	my $r = shift(@_);

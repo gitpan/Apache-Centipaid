@@ -21,7 +21,6 @@ print "ok DBI\n";
 use DBD::mysql;
 print "ok DBD::mysql\n";
 use CGI::Cookie;
-use DBI;
 print "ok CGI::Cookie\n";
 use Apache::Centipaid;
 print "ok Apache::Centipaid\n";
